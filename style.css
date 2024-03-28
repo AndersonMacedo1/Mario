@@ -8,7 +8,7 @@ const pular = () => {
     mario.classList.remove('pulo')
   }, 500)
 }
-
+ 
 const rodar = setInterval(() => {
   const posicaoPipe = pipe.offsetLeft
   const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '')
